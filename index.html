@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Farm - Solutions Agricoles Intelligentes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>Smart<span>Farm</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="#products">Produits</a></li>
+                    <li><a href="#features">Fonctionnalités</a></li>
+                    <li><a href="#testimonials">Témoignages</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Révolutionnez votre agriculture avec Smart Farm</h2>
+                <p>Des solutions intelligentes pour une gestion optimale de votre exploitation</p>
+                <a href="#products" class="btn">Découvrir nos produits</a>
+            </div>
+            <div class="banner-image">
+                <img src="images/products/555.jpg" alt="Produits Smart Farm">
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature-dots">
+                <div class="dot active" data-feature="water"></div>
+                <div class="dot" data-feature="connect"></div>
+                <div class="dot" data-feature="easy"></div>
+            </div>
+            <div class="feature-content active" id="water">
+                <i class="fas fa-tint"></i>
+                <h3>Économie d'eau</h3>
+                <p>Jusqu'à 70% d'économie grâce à nos systèmes d'irrigation intelligente</p>
+            </div>
+            <div class="feature-content" id="connect">
+                <i class="fas fa-wifi"></i>
+                <h3>Agriculture connectée</h3>
+                <p>Surveillez et contrôlez votre exploitation à distance</p>
+            </div>
+            <div class="feature-content" id="easy">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Facilité d'utilisation</h3>
+                <p>Interface intuitive accessible depuis votre smartphone</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Nos Produits Populaires</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/products/444.jpg" alt="Capteur d'humidité">
+                    <h3>Capteur d'humidité intelligent</h3>
+                    <p class="price">€89.99</p>
+                    <button class="btn add-to-cart" data-id="1">Ajouter au panier</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/3331.jpg" alt="Station météo">
+                    <h3>Station météo connectée</h3>
+                    <p class="price">€149.99</p>
+                    <button class="btn add-to-cart" data-id="2">Ajouter au panier</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/111.jpg" alt="Système d'irrigation">
+                    <h3>Système d'irrigation automatique</h3>
+                    <p class="price">€249.99</p>
+                    <button class="btn add-to-cart" data-id="3">Ajouter au panier</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/222.jpg" alt="Drone agricole">
+                    <h3>Drone de surveillance agricole</h3>
+                    <p class="price">€599.99</p>
+                    <button class="btn add-to-cart" data-id="4">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>Témoignages de nos clients</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"Les capteurs Smart Farm ont transformé ma façon de gérer l'irrigation. Des économies substantielles et une meilleure productivité!"</p>
+                    <div class="author">
+                        <img src="images/products/666.jpg" alt="Abdellah SEBBOUBI">
+                        <h4>Abdellah SEBBOUBI</h4>
+                        <p>Agriculteur à zair</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"La station météo connectée m'aide à anticiper les risques climatiques. Un outil indispensable pour mon exploitation."</p>
+                    <div class="author">
+                        <img src="images/products/777.jpg" alt="Mohammed ZNIBER">
+                        <h4>Mohammed ZNIBER</h4>
+                        <p>Viticulteur à Meknès</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Simple à installer et à utiliser. Les données accessibles en temps réel sur mon smartphone changent tout."</p>
+                    <div class="author">
+                        <img src="images/products/888.avif" alt="Ghallab SELLOUTI">
+                        <h4>Ghallab SELLOUTI</h4>
+                        <p>Arboriculteur à Casablanca</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-leaf"></i>
+                        <h1>Smart<span>Farm</span></h1>
+                    </div>
+                    <p>Solutions intelligentes pour une agriculture moderne et durable.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#products">Produits</a></li>
+                        <li><a href="#features">Fonctionnalités</a></li>
+                        <li><a href="#testimonials">Témoignages</a></li>
+                        <li><a href="cart.html">Panier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@smartfarm.ma</p>
+                    <p><i class="fas fa-phone"></i> +212 6 00 00 00 00</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Smart Farm. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

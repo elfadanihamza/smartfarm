@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capteur d'humidité intelligent - Smart Farm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>Smart<span>Farm</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#products">Produits</a></li>
+                    <li><a href="index.html#features">Fonctionnalités</a></li>
+                    <li><a href="index.html#testimonials">Témoignages</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="images/product1-large.jpg" alt="Capteur d'humidité intelligent" id="main-product-image">
+                </div>
+                <div class="thumbnail-container">
+                    <div class="thumbnail active" data-image="images/product1-large.jpg">
+                        <img src="images/product1-thumb.jpg" alt="Vue 1">
+                    </div>
+                    <div class="thumbnail" data-image="images/product1-alt1.jpg">
+                        <img src="images/product1-alt1-thumb.jpg" alt="Vue 2">
+                    </div>
+                    <div class="thumbnail" data-image="images/product1-alt2.jpg">
+                        <img src="images/product1-alt2-thumb.jpg" alt="Vue 3">
+                    </div>
+                    <div class="thumbnail" data-image="images/product1-alt3.jpg">
+                        <img src="images/product1-alt3-thumb.jpg" alt="Vue 4">
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h2>Capteur d'humidité intelligent</h2>
+                <div class="price">€89.99</div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(24 avis)</span>
+                </div>
+                <p class="description">
+                    Notre capteur d'humidité intelligent vous permet de surveiller en temps réel l'état hydrique de vos sols. 
+                    Connecté à votre smartphone via Bluetooth, il vous alerte lorsque vos cultures nécessitent une irrigation.
+                </p>
+                <div class="features">
+                    <h3>Caractéristiques :</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Mesure précise de l'humidité du sol</li>
+                        <li><i class="fas fa-check-circle"></i> Autonomie de 2 ans</li>
+                        <li><i class="fas fa-check-circle"></i> Résistant aux intempéries</li>
+                        <li><i class="fas fa-check-circle"></i> Compatible iOS et Android</li>
+                        <li><i class="fas fa-check-circle"></i> Installation en 5 minutes</li>
+                    </ul>
+                </div>
+                <div class="quantity">
+                    <label for="quantity">Quantité :</label>
+                    <input type="number" id="quantity" min="1" value="1">
+                </div>
+                <button class="btn add-to-cart" data-id="1">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-reviews">
+        <div class="container">
+            <h2>Avis clients</h2>
+            <div class="review">
+                <div class="review-header">
+                    <div class="review-author">
+                        <img src="images/products/777.jpg" alt="Jean Dupont">
+                        <h4>Jean Dupont</h4>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <h3>Excellent produit</h3>
+                    <p>
+                        J'utilise ce capteur depuis 3 mois sur mes parcelles de blé. Les données sont précises et m'ont permis 
+                        d'optimiser mon irrigation. L'application est simple à utiliser. Je recommande!
+                    </p>
+                    <div class="review-date">Posté le 15/05/2023</div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-header">
+                    <div class="review-author">
+                        <img src="images/products/666.jpg" alt="Sophie Martin">
+                        <h4>Sophie Martin</h4>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <h3>Très satisfaite</h3>
+                    <p>
+                        Installation rapide, fonctionnement impeccable. J'aurais aimé une portée Bluetooth un peu plus importante 
+                        pour mes grandes parcelles, mais dans l'ensemble je suis très satisfaite de cet achat.
+                    </p>
+                    <div class="review-date">Posté le 02/06/2023</div>
+                </div>
+            </div>
+            <button class="btn" id="add-review">Ajouter un avis</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-leaf"></i>
+                        <h1>Smart<span>Farm</span></h1>
+                    </div>
+                    <p>Solutions intelligentes pour une agriculture moderne et durable.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#products">Produits</a></li>
+                        <li><a href="index.html#features">Fonctionnalités</a></li>
+                        <li><a href="index.html#testimonials">Témoignages</a></li>
+                        <li><a href="cart.html">Panier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@smartfarm.fr</p>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Smart Farm. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
